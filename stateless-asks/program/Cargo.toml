@@ -12,7 +12,7 @@ test-sbf = []
 
 [dependencies]
 borsh = "1.2.1"
-solana-program = ">=1.18.2,<=2"
+solana-program = { git = "https://github.com/anza-xyz/agave.git", branch = "master" }
 spl-token = { version = "4.0", path = "../../token/program", features = [
   "no-entrypoint",
 ] }
